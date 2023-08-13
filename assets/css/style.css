@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 #header h1 {
   font-size: 68px;
   margin: 0;
-  padding: 0 0 20px 0;
+  padding: 35 0 20px 0;
   line-height: 1;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
@@ -385,6 +385,11 @@ section .container {
   margin-bottom: 0;
 }
 
+.bio-khadija{
+  text-align: justify; 
+  line-height: 1.7;
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -535,7 +540,17 @@ section .container {
   background: #18d26e;
   border: 2px solid #18d26e;
 }
-
+/*--------------------------------------------------------------
+# Elevator Pitch
+--------------------------------------------------------------*/
+.elevator{
+  height: 400px;
+}
+#elevatorText{
+  padding: 20px 200px;
+  line-break: 1.7;
+  font-size: 16px;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
