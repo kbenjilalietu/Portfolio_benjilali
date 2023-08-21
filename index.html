@@ -43,6 +43,11 @@
 
       <h1><a href="index.html">Khadija Benjilali</a></h1>
       <h2>I'm a passionate <span>Software Engineer</span> from Morocco</h2>
+      <div class="mt-2">
+        <h2 style="font-size: 24px; margin-right: 40px; line-height: 1.7;">
+          Driven by passion and fueled by challenges, I'm a tech enthusiast who thrives on innovation and embraces every opportunity to grow.
+        </h2>
+      </div>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link active" href="#header">Home</a></li>
@@ -186,6 +191,13 @@
             </div>
           </div>
 
+          <div class="progress">
+            <span class="skill">Problem-solving <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
         </div>
 
         <div class="col-lg-6">
@@ -205,12 +217,18 @@
           </div>
 
           <div class="progress">
-            <span class="skill">UI/UX DESIGN <i class="val">55%</i></span>
+            <span class="skill">UI/UX DESIGN <i class="val">75%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
+          <div class="progress">
+            <span class="skill">Teamwork skills <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -313,19 +331,18 @@
       <p>My Personal Elevator Pitch</p>
     </div>
 
-    <div class="m-5 row">
+    <div class="row">
       <div class="align-items-stretch">
-        <div class="icon-box elevator">
-          <div class="icon"><i class="bx bx-video"></i></div>
+          <div class="container" id="elevator_container">
+            <iframe src="https://www.youtube.com/embed/hQI8hdpj0J0" width="100%" height="550" frameborder="0" allowfullscreen id="iframe_elivator"></iframe>
+            </div>
+          <!-- <div class="icon"><i class="bx bx-video"></i></div>
           <h4><a href="">Coming Soon</a></h4>
           <p id="elevatorText">
             Stay tuned! My elevator pitch, which captures my unique professional journey and offerings, is currently under construction and will be shared soon. I'm excited to present a succinct snapshot of who I am and the value I bring to the table.
-          </p>
-        </div>
+          </p> -->
+       
       </div>
-
-      
-
     </div>
 
   </div>
@@ -613,7 +630,7 @@
             <img src="assets/img/portfolio/slide-tem.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Team slide deck</h4>
-              <p>MUSTAKBALII Platform Presentation</p>
+              <p><a href="https://drive.google.com/file/d/1yXIGZ-xYNJEWqUTLpAWEWNIGnmPHZwM3/view?usp=drive_link" title="MUSTAKBALII Platform Presentation Link">MUSTAKBALII Platform Presentation</a></p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/slide-tem.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Team slide deck"><i class="bx bx-plus"></i></a>
                 <a href="https://drive.google.com/file/d/1yXIGZ-xYNJEWqUTLpAWEWNIGnmPHZwM3/view?usp=drive_link" title="Slide Link"><i class="bx bx-link"></i></a>
@@ -627,23 +644,11 @@
             <img src="assets/img/portfolio/video-tem.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Team video</h4>
-              <p>MUSTAKBALII Pitch video</p>
+              <p><a href="https://www.youtube.com/watch?v=zGrfLNe3PlU" title="MUSTAKBALII Pitch video Link">MUSTAKBALII Pitch video</a></p>
+              <p></p>
               <div class="portfolio-links">
                 <a href="https://www.youtube.com/watch?v=zGrfLNe3PlU" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Team video"><i class="bx bx-plus"></i></a>
                 <a href="https://www.youtube.com/watch?v=zGrfLNe3PlU" title="Video Link"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/mobile1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Ebak</h4>
-              <p>Predicting Car Price</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/mobile1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ebak"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>
@@ -866,6 +871,7 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
+  
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
